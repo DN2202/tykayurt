@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Iogurte com Geleia de Abacaxi</title>
+  <desc id="desc">Ilustração de pote de iogurte artesanal com faixa em tom de abacaxi.</desc>
+  <rect width="800" height="600" fill="#faf4e8"/>
+  <ellipse cx="400" cy="500" rx="180" ry="32" fill="#ddd2ba" opacity="0.55"/>
+  <rect x="270" y="130" width="260" height="300" rx="44" fill="#fffdf9" stroke="#d5d1c7" stroke-width="8"/>
+  <rect x="250" y="100" width="300" height="54" rx="24" fill="#dbe5d8"/>
+  <rect x="300" y="220" width="200" height="126" rx="24" fill="#f3df9c"/>
+  <text x="400" y="272" text-anchor="middle" font-family="Georgia, serif" font-size="38" fill="#9f8651">TykaYurt</text>
+  <text x="400" y="316" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#91754b">Abacaxi 500ml</text>
+</svg>

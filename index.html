@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TykaYurt | Cardápio Digital</title>
+    <meta
+      name="description"
+      content="Cardápio digital da TykaYurt, iogurtes artesanais naturais com fermentação natural e sem conservantes."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="topo">
+      <nav class="nav container">
+        <a href="#topo" class="brand" aria-label="TykaYurt início">
+          <span class="brand-mark">Tyka</span><span>Yurt</span>
+        </a>
+        <a href="#cardapio" class="nav-link">Cardápio</a>
+      </nav>
+
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <span class="eyebrow">Artesanal • Natural • Premium</span>
+          <h1>Iogurte artesanal de verdade</h1>
+          <p>
+            Natural, saudável e feito com fermentação natural.
+          </p>
+          <a href="#cardapio" class="button-primary">Ver Cardápio</a>
+        </div>
+
+        <div class="hero-card" aria-label="Destaque dos produtos TykaYurt">
+          <div class="hero-badge">Sem conservantes</div>
+          <div class="hero-jar jar-large"></div>
+          <div class="hero-card-footer">
+            <strong>Feito em pequenos lotes</strong>
+            <span>Sabor delicado, textura cremosa e qualidade artesanal.</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about section container" id="sobre">
+        <div class="section-heading">
+          <span class="section-tag">Sobre a marca</span>
+          <h2>A simplicidade de um iogurte feito com cuidado</h2>
+        </div>
+
+        <div class="about-grid">
+          <p>
+            A TykaYurt produz iogurtes artesanais com fermentação natural, sem
+            conservantes e com ingredientes selecionados. Um produto natural,
+            saudável e feito de forma artesanal.
+          </p>
+          <div class="about-details">
+            <div>
+              <strong>Natural</strong>
+              <span>Receita limpa, sabor leve e ingredientes selecionados.</span>
+            </div>
+            <div>
+              <strong>Caseiro premium</strong>
+              <span>Produção artesanal com acabamento sofisticado.</span>
+            </div>
+            <div>
+              <strong>Qualidade</strong>
+              <span>Fermentação natural para textura cremosa e autêntica.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu section" id="cardapio">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-tag">Cardápio</span>
+            <h2>Sabores artesanais para sua rotina</h2>
+          </div>
+
+          <div class="menu-grid">
+            <article class="product-card" data-name="Iogurte Natural 500ml" data-price="15">
+              <img src="assets/iogurte-natural-500.svg" alt="Pote de iogurte natural 500ml" />
+              <div class="product-content">
+                <h3>Iogurte Natural 500ml</h3>
+                <p>Iogurte artesanal com fermentação natural e geleia caseira.</p>
+                <div class="product-meta">
+                  <strong>R$15</strong>
+                  <label>
+                    Quantidade
+                    <input type="number" min="0" value="0" class="quantity-input" />
+                  </label>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-name="Iogurte Natural 1 Litro" data-price="25">
+              <img src="assets/iogurte-natural-1l.svg" alt="Garrafa de iogurte natural 1 litro" />
+              <div class="product-content">
+                <h3>Iogurte Natural 1 Litro</h3>
+                <p>Iogurte artesanal com fermentação natural e geleia caseira.</p>
+                <div class="product-meta">
+                  <strong>R$25</strong>
+                  <label>
+                    Quantidade
+                    <input type="number" min="0" value="0" class="quantity-input" />
+                  </label>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-name="Iogurte com Geleia de Morango 500ml" data-price="18">
+              <img src="assets/iogurte-morango.svg" alt="Iogurte com geleia de morango 500ml" />
+              <div class="product-content">
+                <h3>Iogurte com Geleia de Morango 500ml</h3>
+                <p>Iogurte artesanal com fermentação natural e geleia caseira.</p>
+                <div class="product-meta">
+                  <strong>R$18</strong>
+                  <label>
+                    Quantidade
+                    <input type="number" min="0" value="0" class="quantity-input" />
+                  </label>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-name="Iogurte com Geleia de Abacaxi 500ml" data-price="18">
+              <img src="assets/iogurte-abacaxi.svg" alt="Iogurte com geleia de abacaxi 500ml" />
+              <div class="product-content">
+                <h3>Iogurte com Geleia de Abacaxi 500ml</h3>
+                <p>Iogurte artesanal com fermentação natural e geleia caseira.</p>
+                <div class="product-meta">
+                  <strong>R$18</strong>
+                  <label>
+                    Quantidade
+                    <input type="number" min="0" value="0" class="quantity-input" />
+                  </label>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-name="Iogurte com Geleia de Ameixa 500ml" data-price="18">
+              <img src="assets/iogurte-ameixa.svg" alt="Iogurte com geleia de ameixa 500ml" />
+              <div class="product-content">
+                <h3>Iogurte com Geleia de Ameixa 500ml</h3>
+                <p>Iogurte artesanal com fermentação natural e geleia caseira.</p>
+                <div class="product-meta">
+                  <strong>R$18</strong>
+                  <label>
+                    Quantidade
+                    <input type="number" min="0" value="0" class="quantity-input" />
+                  </label>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="order section container" id="pedido">
+        <div class="section-heading">
+          <span class="section-tag">Fazer pedido</span>
+          <h2>Monte seu pedido e envie pelo WhatsApp</h2>
+        </div>
+
+        <form class="order-form" id="order-form">
+          <div class="form-grid">
+            <label>
+              Nome
+              <input type="text" id="name" name="name" placeholder="Seu nome" required />
+            </label>
+            <label>
+              Telefone
+              <input type="tel" id="phone" name="phone" placeholder="(41) 99999-9999" required />
+            </label>
+            <label class="full-width">
+              Endereço
+              <input type="text" id="address" name="address" placeholder="Rua, número e bairro" required />
+            </label>
+            <fieldset class="full-width payment-methods">
+              <legend>Forma de pagamento</legend>
+              <label><input type="radio" name="payment" value="Pix" checked /> Pix</label>
+              <label><input type="radio" name="payment" value="Dinheiro" /> Dinheiro</label>
+              <label><input type="radio" name="payment" value="Cartão" /> Cartão</label>
+            </fieldset>
+            <label class="full-width">
+              Observações
+              <textarea id="notes" name="notes" rows="4" placeholder="Ex.: entregar no período da tarde"></textarea>
+            </label>
+          </div>
+
+          <div class="order-summary" id="order-summary">
+            <h3>Resumo do pedido</h3>
+            <p>Selecione as quantidades no cardápio para montar seu pedido.</p>
+          </div>
+
+          <button type="submit" class="button-primary button-large">
+            Enviar pedido pelo WhatsApp
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div>
+          <a href="#topo" class="brand footer-brand">
+            <span class="brand-mark">Tyka</span><span>Yurt</span>
+          </a>
+          <p>TykaYurt — Delicie-se sem culpa</p>
+        </div>
+        <ul>
+          <li><strong>WhatsApp:</strong> (41) 99999-9999</li>
+          <li><strong>Instagram:</strong> @tykayurt</li>
+          <li><strong>Localização:</strong> Curitiba</li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
