@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Iogurte Natural 500ml</title>
+  <desc id="desc">Ilustração minimalista de um pote de iogurte TykaYurt.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f8f4ec"/>
+      <stop offset="100%" stop-color="#ebe3d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="500" rx="180" ry="32" fill="#d9d1c3" opacity="0.55"/>
+  <rect x="270" y="130" width="260" height="300" rx="44" fill="#fffdf9" stroke="#d5d1c7" stroke-width="8"/>
+  <rect x="250" y="100" width="300" height="54" rx="24" fill="#dbe5d8"/>
+  <rect x="305" y="232" width="190" height="110" rx="22" fill="#eef3e8"/>
+  <text x="400" y="275" text-anchor="middle" font-family="Georgia, serif" font-size="40" fill="#61775d">TykaYurt</text>
+  <text x="400" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#7d7a72">Natural 500ml</text>
+</svg>
