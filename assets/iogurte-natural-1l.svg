@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Iogurte Natural 1 Litro</title>
+  <desc id="desc">Ilustração minimalista de uma garrafa de iogurte TykaYurt.</desc>
+  <rect width="800" height="600" fill="#f7f1e8"/>
+  <ellipse cx="400" cy="505" rx="145" ry="28" fill="#d9d1c3" opacity="0.55"/>
+  <rect x="320" y="90" width="160" height="360" rx="58" fill="#fffdf9" stroke="#d5d1c7" stroke-width="8"/>
+  <rect x="345" y="65" width="110" height="58" rx="18" fill="#dbe5d8"/>
+  <rect x="340" y="235" width="120" height="102" rx="18" fill="#eef3e8"/>
+  <text x="400" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="31" fill="#61775d">TykaYurt</text>
+  <text x="400" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#7d7a72">Natural 1L</text>
+</svg>
