@@ -1,4 +1,4 @@
-const phoneNumber = '554184597071';
+const phoneNumber = '5541984597071';
 const productCards = [...document.querySelectorAll('.product-card')];
 const orderSummary = document.querySelector('#order-summary');
 const form = document.querySelector('#order-form');
